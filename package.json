@@ -1,0 +1,21 @@
+{
+  "name": "ipper",
+  "version": "0.0.1",
+  "description": "Get the country that a given ip is registered in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ip"
+  ],
+  "author": "Peter Heesterman",
+  "license": "MIT",
+  "bin": {
+    "ipper": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "node-fetch": "^2.1.2"
+  }
+}
